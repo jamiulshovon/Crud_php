@@ -8,7 +8,7 @@ if(isset($_GET["id"])){
     $res = $conn->query($sql_del);
 
    if($res){
-    echo '<div class="alert alert-success">Client deleted successfully.</div>';
+    header("Location: index.php");
 } else {
     echo '<div class="alert alert-danger">Error deleting client: '.$conn->error.'</div>';
 }
