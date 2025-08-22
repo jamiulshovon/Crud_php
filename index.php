@@ -42,7 +42,7 @@ if (!$res_all) {
                         <td>{$row['address']}</td>
                         <td>{$row['creation_time']}</td>
                         <td>
-                            <a class='btn btn-success btn-sm' href='update.php?id={$row['id']}'>Edit</a>
+                            <a class='btn btn-success btn-sm' href='edit.php?id={$row['id']}'>Edit</a>
                             <a class='btn btn-danger btn-sm' href='delete.php?id={$row['id']}'>Delete</a>
                         </td>
                     </tr>";
